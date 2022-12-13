@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    
+	<head>
+		<div class="center">
+		
+		<link rel="stylesheet" type="text/css" href="Sun.css">
+		
+		<meta charset="UTF-8">
+		<title>Bienvenue sur le Sunaris Helper 3.0 !</title>
+
+	</head>
+	<body>
+		
+		
+		<h1><button id="refresh"  onclick="window.location.reload();">Sunaris Helper 3.0 </button></h1>
+		<h2>Site en dévelopement</h2>
+	<div class="choix">	
+		
+			<div class="list">
+				<select name="formula" id="formula">
+					<option value="">Choisir</option>
+						
+						<option value="bronze">Bronze</option>
+						<option value="acier">Acier</option>
+						<option value="invar">Invar</option>
+						<option value="titane">Titane</option>
+						<option value="virenium">Virenium</option>
+						<option value="virenium_infused">Virenium infusé</option>
+					
+				</select>
+			</div>
+		
+
+		<div class="quantitybox" >
+
+			<input type="text" inputmode="numeric" required = "required" id="quantity" name="quantity">
+			<span>Quantité</span>
+		</div>
+		
+		<a href="#"  onclick="recipe()" style="--clr:#1e9bff"><span>Calculer</span><i></i></a> 
+	</div>
+</div> 		
+		<div class="col-9 result mb-5 pb-5">
+			
+
+			<ul class="tab-content" id="myTabContent">
+			
+				
+                        
+                        
+                    </div>
+
+					
+							
+
+						
+						<p id="result-title" class="h3"></p>
+							
+						<pre id="result-alliage"></pre>
+						<pre id="result-detail-total"></pre>
+						<pre id="result-detail-total-stack"></pre>
+						<pre id="result-detail-total-stackb"></pre>
+					</div>
+				</div>
+			</ul>
+
+		</div>
+	
+		<script src="sunaris.js"></script>
+    
+		<footer class="footer navbar-fixed-bottom">
+			<p class="Copyright"> Copyright © 2022 IsT3RiK. All rights reserved. </p>
+	
+	</body>
+</html>
